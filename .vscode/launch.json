@@ -5,6 +5,25 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "PowerShell Attach to Host Process",
+            "type": "PowerShell",
+            "request": "attach"
+        },
+        C:\Users\MiniMonster\OneDrive\Pictures\Documents\.tmp.driveupload\OneDrive\Documents\GitHub\speechify
+
+        {
+            "name": "PowerShell Launch Script",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "Enter path or command to execute, for example, ${workspaceFolder}/src/foo.ps1 or Invoke-Pester",
+            "cwd": "${cwd}"
+        },
+        {
+            "name": "PowerShell Attach to Host Process",
+            "type": "PowerShell",
+            "request": "attach"
+        },
+        {
             "name": "PowerShell: Windows PowerShell",
             "type": "PowerShell",
             "request": "launch",
