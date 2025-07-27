@@ -15,6 +15,11 @@
             "request": "attach"
         },
         {
+            "name": "PowerShell Attach to Host Process",
+            "type": "PowerShell",
+            "request": "attach"
+        },
+        {
             "type": "cmake",
             "request": "launch",
             "name": "CMake: Externally launched",
